@@ -2,8 +2,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item>
             <shape android:shape="rectangle" >
-                <stroke android:color="#0c00ff" android:width="80dp"/>
-                <solid android:color="#0c00ff" />
+                <stroke android:color="#f9f502" android:width="80dp"/>
+                <solid android:color="#f9f502" />
             </shape>
     </item>
 </layer-list>

@@ -51,8 +51,8 @@ public class GameView extends View {
         };
         background = BitmapFactory.decodeResource(getResources(),R.drawable.game_background);
         R1 = BitmapFactory.decodeResource(getResources(), R.drawable.rectangle);
-        R2 = BitmapFactory.decodeResource(getResources(), R.drawable.rectangle);
-        R3 = BitmapFactory.decodeResource(getResources(),R.drawable.rectangle);
+        R2 = BitmapFactory.decodeResource(getResources(), R.drawable.rectangle2);
+        R3 = BitmapFactory.decodeResource(getResources(),R.drawable.rectangle3);
         display = ((Activity)getContext()).getWindowManager().getDefaultDisplay();
         point = new Point();
         display.getSize(point);
