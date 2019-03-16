@@ -1,1 +1,3 @@
 # CS441_Proj4
+
+The goal of this game is to survive for as long as possible. Lines of colored rectangles will come towards the user and the only way to survive is if you pass through the rectangle with the same color. Initially, I had planned to have objects that would change the color of the player, but I wasn't able to get it to work. Also, collision doesn't properly work. To get the triangle (player) to move, I used the OnDragEvent to allow players to click and drag the triangle to a given X position. Every time the player passes a set of rectangles, they are rewarded with 1 point and the difficulty will increase every 10 points.
