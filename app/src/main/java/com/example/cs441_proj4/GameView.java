@@ -77,7 +77,7 @@ public class GameView extends View {
 
         Paint paint = new Paint();
         paint.setStyle(Paint.Style.STROKE);
-        paint.setStrokeWidth(5);
+        paint.setStrokeWidth(6);
         paint.setColor(Color.BLACK);
         paint.setTextSize(80);
         String temp = String.valueOf(pts);
