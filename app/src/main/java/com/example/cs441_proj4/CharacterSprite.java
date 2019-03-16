@@ -7,24 +7,33 @@ import android.graphics.Canvas;
 public class CharacterSprite {
 
     private Bitmap image;
-    private int x,y;
-    private int xVelocity = 10;
-    private int yVelocity = 5;
-    private int screenWidth = Resources.getSystem().getDisplayMetrics().widthPixels;
-    private int screenHeight = Resources.getSystem().getDisplayMetrics().heightPixels;
+    private int x;
+    private int y;
+    int screenWidth = Resources.getSystem().getDisplayMetrics().widthPixels;
+    int screenHeight = Resources.getSystem().getDisplayMetrics().heightPixels;
 
     public CharacterSprite(Bitmap bmp){
         image = bmp;
-        x = 100;
-        y = 100;
+
+        x = screenWidth/2;
+        y = 1200;
     }
 
     public void draw(Canvas canvas){
 
-        canvas.drawBitmap(image, 100, 100, null);
+        canvas.drawBitmap(image, x, y, null);
     }
 
-    public void update(){
-        y++;
+    public void setX(int X){
+        int x = X;
+    }
+
+    public int getX(){
+        return this.x;
+    }
+
+    public int getY(){
+        return this.y;
+
     }
 }

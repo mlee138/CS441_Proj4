@@ -1,3 +1,4 @@
+/*
 package com.example.cs441_proj4;
 
 import android.graphics.Canvas;
@@ -46,3 +47,4 @@ public class MainThread extends Thread {
         this.running = running;
     }
 }
+*/
